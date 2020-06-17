@@ -8,12 +8,12 @@
 
 #import "LXFBannerView.h"
 
-#import "StyledPageControl.h"
+#import "LXFStyledPageControl.h"
 //#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface LXFBannerView()<UIScrollViewDelegate>
 
-@property (nonatomic, strong) StyledPageControl *pageControl;
+@property (nonatomic, strong) LXFStyledPageControl *pageControl;
 @property (nonatomic, strong) UIScrollView *scrollView;
 
 @property (nonatomic, strong) UIImageView *preIV;
@@ -214,9 +214,9 @@
     return _scrollView;
 }
 
-- (StyledPageControl *)pageControl {
+- (LXFStyledPageControl *)pageControl {
     if (!_pageControl) {
-        _pageControl = [[StyledPageControl alloc]initWithFrame:CGRectZero];
+        _pageControl = [[LXFStyledPageControl alloc]initWithFrame:CGRectZero];
         _pageControl.coreNormalColor = [UIColor whiteColor];
         _pageControl.coreSelectedColor= UIColor.blackColor;
         _pageControl.numberOfPages = 0;

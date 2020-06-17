@@ -15,7 +15,7 @@
 		986E29A4249A1C6200FA9E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986E29A2249A1C6200FA9E43 /* LaunchScreen.storyboard */; };
 		986E29A7249A1C6200FA9E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29A6249A1C6200FA9E43 /* main.m */; };
 		986E29B0249A1CB600FA9E43 /* LXFBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29AE249A1CB600FA9E43 /* LXFBannerView.m */; };
-		986E29B4249A1D2A00FA9E43 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */; };
+		986E29B4249A1D2A00FA9E43 /* LXFStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29B3249A1D2A00FA9E43 /* LXFStyledPageControl.m */; };
 		986E29BF249A1F2100FA9E43 /* testImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BC249A1F2100FA9E43 /* testImage@2x.png */; };
 		986E29C0249A1F2100FA9E43 /* testImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BD249A1F2100FA9E43 /* testImage@3x.png */; };
 		986E29C1249A1F2100FA9E43 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BE249A1F2100FA9E43 /* testImage.png */; };
@@ -36,8 +36,8 @@
 		986E29A6249A1C6200FA9E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		986E29AE249A1CB600FA9E43 /* LXFBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFBannerView.m; sourceTree = "<group>"; };
 		986E29AF249A1CB600FA9E43 /* LXFBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFBannerView.h; sourceTree = "<group>"; };
-		986E29B2249A1D2A00FA9E43 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
-		986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+		986E29B2249A1D2A00FA9E43 /* LXFStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFStyledPageControl.h; sourceTree = "<group>"; };
+		986E29B3249A1D2A00FA9E43 /* LXFStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFStyledPageControl.m; sourceTree = "<group>"; };
 		986E29BC249A1F2100FA9E43 /* testImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testImage@2x.png"; sourceTree = "<group>"; };
 		986E29BD249A1F2100FA9E43 /* testImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testImage@3x.png"; sourceTree = "<group>"; };
 		986E29BE249A1F2100FA9E43 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		986E29B1249A1D2A00FA9E43 /* StyledPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				986E29B2249A1D2A00FA9E43 /* StyledPageControl.h */,
-				986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */,
+				986E29B2249A1D2A00FA9E43 /* LXFStyledPageControl.h */,
+				986E29B3249A1D2A00FA9E43 /* LXFStyledPageControl.m */,
 			);
 			path = StyledPageControl;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 				986E299C249A1C5900FA9E43 /* ViewController.m in Sources */,
 				986E2996249A1C5900FA9E43 /* AppDelegate.m in Sources */,
 				986E29B0249A1CB600FA9E43 /* LXFBannerView.m in Sources */,
-				986E29B4249A1D2A00FA9E43 /* StyledPageControl.m in Sources */,
+				986E29B4249A1D2A00FA9E43 /* LXFStyledPageControl.m in Sources */,
 				986E29A7249A1C6200FA9E43 /* main.m in Sources */,
 				986E2999249A1C5900FA9E43 /* SceneDelegate.m in Sources */,
 			);

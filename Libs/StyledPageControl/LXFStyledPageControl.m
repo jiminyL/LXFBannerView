@@ -1,9 +1,9 @@
 
 
-#import "StyledPageControl.h"
+#import "LXFStyledPageControl.h"
 
 
-@implementation StyledPageControl
+@implementation LXFStyledPageControl
 
 #define COLOR_GRAYISHBLUE [UIColor whiteColor]
 #define COLOR_GRAY [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1]
