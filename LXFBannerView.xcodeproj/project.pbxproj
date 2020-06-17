@@ -16,6 +16,9 @@
 		986E29A7249A1C6200FA9E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29A6249A1C6200FA9E43 /* main.m */; };
 		986E29B0249A1CB600FA9E43 /* LXFBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29AE249A1CB600FA9E43 /* LXFBannerView.m */; };
 		986E29B4249A1D2A00FA9E43 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */; };
+		986E29BF249A1F2100FA9E43 /* testImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BC249A1F2100FA9E43 /* testImage@2x.png */; };
+		986E29C0249A1F2100FA9E43 /* testImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BD249A1F2100FA9E43 /* testImage@3x.png */; };
+		986E29C1249A1F2100FA9E43 /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 986E29BE249A1F2100FA9E43 /* testImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		986E29AF249A1CB600FA9E43 /* LXFBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFBannerView.h; sourceTree = "<group>"; };
 		986E29B2249A1D2A00FA9E43 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
 		986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+		986E29BC249A1F2100FA9E43 /* testImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testImage@2x.png"; sourceTree = "<group>"; };
+		986E29BD249A1F2100FA9E43 /* testImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testImage@3x.png"; sourceTree = "<group>"; };
+		986E29BE249A1F2100FA9E43 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		986E2993249A1C5900FA9E43 /* LXFBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				986E29B5249A1F0E00FA9E43 /* Images */,
 				986E2994249A1C5900FA9E43 /* AppDelegate.h */,
 				986E2995249A1C5900FA9E43 /* AppDelegate.m */,
 				986E2997249A1C5900FA9E43 /* SceneDelegate.h */,
@@ -100,6 +107,16 @@
 				986E29B3249A1D2A00FA9E43 /* StyledPageControl.m */,
 			);
 			path = StyledPageControl;
+			sourceTree = "<group>";
+		};
+		986E29B5249A1F0E00FA9E43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				986E29BE249A1F2100FA9E43 /* testImage.png */,
+				986E29BC249A1F2100FA9E43 /* testImage@2x.png */,
+				986E29BD249A1F2100FA9E43 /* testImage@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986E29BF249A1F2100FA9E43 /* testImage@2x.png in Resources */,
 				986E29A4249A1C6200FA9E43 /* LaunchScreen.storyboard in Resources */,
 				986E29A1249A1C6200FA9E43 /* Assets.xcassets in Resources */,
+				986E29C1249A1F2100FA9E43 /* testImage.png in Resources */,
 				986E299F249A1C5900FA9E43 /* Main.storyboard in Resources */,
+				986E29C0249A1F2100FA9E43 /* testImage@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

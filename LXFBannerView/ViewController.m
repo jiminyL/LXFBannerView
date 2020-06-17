@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "LXFBannerView.h"
+
 @interface ViewController ()
 
 @end
@@ -16,8 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    LXFBannerView *bannerView = [[LXFBannerView alloc] initWithAutoPlay:YES];
+    NSMutableArray *pics = [[NSMutableArray alloc] init];
+    {
+        LXFBannerModel *m = [[LXFBannerModel alloc] init];
+        m.image = [UIImage imageNamed:@"testImage.png"];
+        m.imageUrl = @"";
+        [pics addObject:m];
+    }
+    {
+        LXFBannerModel *m = [[LXFBannerModel alloc] init];
+        m.image = [UIImage imageNamed:@"testImage.png"];
+        m.imageUrl = @"";
+        [pics addObject:m];
+    }
+    {
+        LXFBannerModel *m = [[LXFBannerModel alloc] init];
+        m.image = [UIImage imageNamed:@"testImage.png"];
+        m.imageUrl = @"";
+        [pics addObject:m];
+    }
+    bannerView.bannerModelArr = pics;
+    bannerView.frame = CGRectMake(0.f, 60.f, self.view.frame.size.width, 200);
+    [self.view addSubview:bannerView];
+    
 }
+
+
 
 
 @end
